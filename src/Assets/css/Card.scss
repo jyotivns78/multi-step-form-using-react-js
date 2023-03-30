@@ -1,0 +1,44 @@
+// Form 
+
+.form-label {
+    color: #FFFFFF;
+}
+
+span {
+    color: red;
+}
+
+
+/**=====================
+  13.  Card CSS Start
+==========================**/
+//Card css
+.card {
+    width: 88%;
+    margin-left: 80px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    background-color: white;
+    // Editable
+
+
+    .card-body {
+        background: rgb(6, 6, 56);
+        // padding: 10px;
+        border-radius: 10px;
+        border: none;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+    }
+
+}
+
+/**=====================
+    13. Card CSS End
+  ==========================**/
